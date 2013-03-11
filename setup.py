@@ -88,7 +88,7 @@ setup(
     description='ZooKeeper Python bindings',
     url='http://pypi.python.org/pypi/zc-zookeeper-static',
     cmdclass=cmdclass,
-    test_suite='zookeepertests',
+    #test_suite='zookeepertests',
     ext_modules=[
         distutils.core.Extension(
             "zookeeper",
